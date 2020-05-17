@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEST</title>
+	<meta charset="utf-8">
+	<!-- <link rel="stylesheet" type="text/css" href="second_style.css"> -->
+</head>
+<body>
+	<style type="text/css">
+		body{
+			margin: 0;
+			height: 100vh;
+			width: 100vw;
+			font-weight: 700;
+			background: #ecf0f3;
+
+		}
+
+		.wrapper{
+			width: 100%;
+			text-align: center;
+		}
+
+		.wrapper h1{
+			overflow: hidden;
+			font-family: 'Lato', sans-serif;
+			padding-top: 200px;
+			color: #555;
+			font-size: 80px;
+			letter-spacing: 22px;
+			animation: text 2s 1;
+			text-transform: uppercase;
+			display: block;
+			background: #ecf0f3;
+			position: relative;
+		}
+		.wrapper .text1{
+			color: #669933;
+			font-size: 40px;
+			letter-spacing: 10px;
+			font-weight: 700;
+
+			/*font-family: 'Lato' sans-serif;*/
+		}
+
+		@keyframes text {
+			0%{
+				color: black;
+				margin-bottom: -40px;
+			}
+
+			30%{
+				letter-spacing: 35px;
+				margin-bottom: -40px;
+			}
+			85%{
+				letter-spacing: 12px;
+				margin-bottom: -40px;
+			}
+		}
+
+
+	</style>
+<div class="wrapper">
+	<h1>Welcome in</h1>
+	<span class="text1">Darkcode</span>
+	<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</p> -->
+</div>	
+	
+
+</body>
+</html>
